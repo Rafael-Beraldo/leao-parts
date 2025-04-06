@@ -1,0 +1,136 @@
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header-container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .search-bar {
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    font-size: 14px;
+    border-right: none;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    height: 1.5vh; 
+  }
+
+  .clear-button {
+    position: absolute;
+    right: 40px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #888;
+  }
+
+  .clear-button:hover {
+    background-color: transparent;
+  }
+  
+  .search-button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4.25vh; 
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .nav-links a:hover {
+    color: #0073e6;
+  }
+
+  .logout-button {
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    text-decoration: none;
+  }
+  
+  /* MOBILE STYLE */
+.menu-toggle {
+  display: none;
+  background-color: black;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .search-bar {
+    display: none;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 8px;
+    position: absolute;
+    top: 60px;
+    right: 24px;
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}

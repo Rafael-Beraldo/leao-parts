@@ -1,0 +1,17 @@
+{
+  "files.associations": {
+    "*.{cmp,page,component}": "html"
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.sfdx": true
+  },
+  "editor.formatOnSave": true,
+
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#00000000"
+    // "titleBar.activeBackground": "#00000000"
+    // "titleBar.activeForeground": "#33ff00"
+  }
+}

@@ -1,0 +1,76 @@
+.catalog-page {
+    padding: 2rem 1rem;
+    background-color: #f9f9f9;
+    min-height: 61.1vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .catalog-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .catalog-image-box {
+    flex: 1 1 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dddddd;
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+  
+  .catalog-image-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+  
+  .catalog-details {
+    flex: 1 1 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .catalog-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .catalog-meta p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #444;
+  }
+  
+  .catalog-description {
+    margin-top: 2rem;
+  }
+  
+  .catalog-description h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #2e7d32;
+  }
+  
+  .catalog-description p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .product-loading {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+  }
+  
